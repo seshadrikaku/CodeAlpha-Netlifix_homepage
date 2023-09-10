@@ -1,0 +1,89 @@
+#slide1{
+    background-image: url("./Home-img.jpg");
+    height:90vh;
+    backdrop-filter: blur(20px); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: white;
+}
+.body{
+    background-color: black;
+}
+.title{
+    font-size: 45px;
+}
+
+hr{
+    background-color: white;
+    height: 10px;
+    width: 100%;
+}
+.sign{
+    background-color:red ;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.link{
+    color: white;
+  
+}
+select{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(37, 31, 31);
+    color: white;
+}
+
+.q_1 ,.q_2, .q_3, .q_4, .q_5, .q_6{
+    background-color: rgba(212, 148, 148, 0.288);
+    font-size: 20px;
+    padding: 15px;
+   
+}
+.q_1_ans ,.q_2_ans, .q_3_ans, .q_4_ans, .q_5_ans, .q_6_ans{
+    background-color: rgba(212, 148, 148, 0.288);
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.email{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 190, 190);
+    background-color:rgba(45, 20, 20, 0.884); 
+    height: 50px;
+    color: rgb(243, 239, 239);
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.get{
+    border-radius: 3px;
+    background: red;
+    font-weight: bold;
+    border:none;
+    padding: 10px 10px;
+}
+
+
+  .tv video {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    padding: 20px;
+  }
+
+  .tv {
+    background-image: url('./Tv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
